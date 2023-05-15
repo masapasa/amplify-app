@@ -51,5 +51,33 @@
         "OurApiAmplifyProject": {}
       }
     }
+  },
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyapp-dev-123606-authRole",
+      "UnauthRoleArn": "arn:aws:iam::779061781029:role/amplify-amplifyapp-dev-123606-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::779061781029:role/amplify-amplifyapp-dev-123606-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplifyapp-dev-123606-deployment",
+      "UnauthRoleName": "amplify-amplifyapp-dev-123606-unauthRole",
+      "StackName": "amplify-amplifyapp-dev-123606",
+      "StackId": "arn:aws:cloudformation:us-east-1:779061781029:stack/amplify-amplifyapp-dev-123606/4e512010-f30c-11ed-974f-12b88195933f",
+      "AmplifyAppId": "d32yo64bqaexru",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-amplifyapp-dev-123606-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "amplifyappbeb3e54a": {}
+      },
+      "function": {
+        "CreateIdentityProvider": {},
+        "DeleteProject": {},
+        "GetCognitoUsers": {},
+        "GetProjectsListFromDB": {},
+        "GetUsersList": {},
+        "ListMyProjects": {},
+        "StartNewProject": {}
+      }
+    }
   }
 }
